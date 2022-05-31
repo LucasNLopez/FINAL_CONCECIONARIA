@@ -9,8 +9,8 @@ def modifica (product):
         if c == 1:
             for i in range(len(product)):
                 if type(product[i]) == Autos:
-                    print(f"Auto = {product[i].modelo}\nKm = {product[i].km}\nPrecio = {product[i].precio}\n---------------\n")
-                    print("Si desea Modificarlo Escriba [Modificar] en caso contrario escriba [No]\n\n ")
+                    print(f"""Auto = {product[i].modelo}\nKm = {product[i].km}\nPrecio = {product[i].precio}\n""")
+                    print("Si desea Modificarlo Escriba [Modificar] en caso contrario escriba [No]\n")
                     var = input()
                     var = var.lower()
                     if var == "modificar":
@@ -22,8 +22,8 @@ def modifica (product):
         elif  c == 2:
             for i in range(len(product)):
                 if type(product[i]) == Motos:
-                    print(f"Moto = {product[i].modelo}\nKm = {product[i].km}\nPrecio = {product[i].precio}\n---------------\n")
-                    print("Si desea Modificarlo Escriba [Modificar] en caso contrario escriba [No]\n\n ")
+                    print(f"""Moto = {product[i].modelo}\nKm = {product[i].km}\nPrecio = {product[i].precio}\n""")
+                    print("Si desea Modificarlo Escriba [Modificar] en caso contrario escriba [No]\n")
                     var = input()
                     var = var.lower()
                     if var == "modificar":
@@ -35,8 +35,8 @@ def modifica (product):
         elif  c == 3:
             for i in range(len(product)):
                 if type(product[i]) == Bicicletas:
-                    print(f"Bicicleta = {product[i].marca}\nRodado = {product[i].rodado}\nPrecio = {product[i].precio}\n---------------\n")
-                    print("Si desea Modificarlo Escriba [Modificar] en caso contrario escriba [No]\n\n ")
+                    print(f"""Bicicleta = {product[i].marca}\nRodado = {product[i].rodado}\nPrecio = {product[i].precio}\n""")
+                    print("Si desea Modificarlo Escriba [Modificar] en caso contrario escriba [No]\n")
                     var = input()
                     var = var.lower()
                     if var == "modificar":
@@ -47,7 +47,8 @@ def modifica (product):
                         print("Pasando al siguiente Vehiculo...\n")
         elif c == 4:
             j = 0
-            print("Vuelva Pronto\n---------------\n")
+            print("Vuelva Pronto\n")
+            input("Pulse enter para continuar...")
         else:
             print("Opcion Invalida....")
     return(product)
