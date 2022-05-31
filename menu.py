@@ -42,15 +42,15 @@ def menu_product (user):
                     if c == 1:
                         for i in range(len(pro_dispo)):
                             if type(pro_dispo[i]) == Autos:
-                                print(f"Auto = {pro_dispo[i].modelo}\nKm = {pro_dispo[i].km}\nPrecio = {pro_dispo[i].precio}\n---------------\n")
+                                print(f"Auto = {pro_dispo[i].marca}\nModelo = {pro_dispo[i].modelo}\nKm = {pro_dispo[i].km}\nPrecio = ${pro_dispo[i].precio}\n---------------\n")
                     elif  c == 2:
                         for i in range(len(pro_dispo)):
                             if type(pro_dispo[i]) == Motos:
-                                print(f"Moto = {pro_dispo[i].modelo}\nKm = {pro_dispo[i].km}\nPrecio = {pro_dispo[i].precio}\n---------------\n")
+                                print(f"Moto = {pro_dispo[i].marca}\nModelo = {pro_dispo[i].modelo}\nKm = {pro_dispo[i].km}\nPrecio = ${pro_dispo[i].precio}\n---------------\n")
                     elif c == 3:
                         for i in range(len(pro_dispo)):
                             if type(pro_dispo[i]) == Bicicletas:
-                                print(f"Rodado de la Bicicleta = {pro_dispo[i].rodado}\n Precio = {pro_dispo[i].precio}\n---------------\n")
+                                print(f"Marca Bicicleta = {pro_dispo[i].marca}\nRodado de la Bicicleta = {pro_dispo[i].rodado}\nPrecio = ${pro_dispo[i].precio}\n---------------\n")
                     elif c == 4:
                         print("Vuelva Pronto\n---------------\n")
                         j = 0
@@ -85,15 +85,15 @@ def menu_product (user):
                     if c == 1:
                         for i in range(len(pro_dispo)):
                             if type(pro_dispo[i]) == Autos:
-                                print(f"Auto = {pro_dispo[i].modelo}\n Km = {pro_dispo[i].km}\nPrecio = ${pro_dispo[i].precio}\n---------------\n")
+                                print(f"Auto = {pro_dispo[i].marca}\nModelo = {pro_dispo[i].modelo}\nKm = {pro_dispo[i].km}\nPrecio = ${pro_dispo[i].precio}\n---------------\n")
                     elif  c == 2:
                         for i in range(len(pro_dispo)):
                             if type(pro_dispo[i]) == Motos:
-                                print(f"Moto = {pro_dispo[i].modelo}\nKm = {pro_dispo[i].km}\nPrecio = ${pro_dispo[i].precio}\n---------------\n")
+                                print(f"Moto = {pro_dispo[i].marca}\nModelo = {pro_dispo[i].modelo}\nKm = {pro_dispo[i].km}\nPrecio = ${pro_dispo[i].precio}\n---------------\n")
                     elif  c == 3:
                         for i in range(len(pro_dispo)):
                             if type(pro_dispo[i]) == Bicicletas:
-                                print(f"Bicicleta  = {pro_dispo[i].marca}\nKm = {pro_dispo[i].rodado}\nPrecio = ${pro_dispo[i].precio}\n---------------\n")
+                                print(f"Bicicleta  = {pro_dispo[i].marca}\nRodado = {pro_dispo[i].rodado}\nPrecio = ${pro_dispo[i].precio}\n")
                     elif c == 4:
                         print("Vuelva Pronto\n")
                         f = 0
