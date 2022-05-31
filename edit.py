@@ -1,4 +1,5 @@
 from objetos import *
+import os
 
 def modifica (product):
     var=""
@@ -49,6 +50,7 @@ def modifica (product):
             j = 0
             print("Vuelva Pronto\n")
             input("Pulse enter para continuar...")
+            os.system("cls")
         else:
             print("Opcion Invalida....")
     return(product)
