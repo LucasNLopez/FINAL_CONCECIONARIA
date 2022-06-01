@@ -10,7 +10,7 @@ def modifica (product):
         if c == 1:
             for i in range(len(product)):
                 if type(product[i]) == Autos:
-                    print(f"""Auto = {product[i].modelo}\nKm = {product[i].km}\nPrecio = {product[i].precio}\n""")
+                    print(f"""Auto = {product[i].marca}\nModelo = {product[i].modelo}\nKm = {product[i].km}\nPrecio = ${product[i].precio}\n""")
                     print("Si desea Modificarlo Escriba [Modificar] en caso contrario escriba [No]\n")
                     var = input()
                     var = var.lower()
@@ -23,7 +23,7 @@ def modifica (product):
         elif  c == 2:
             for i in range(len(product)):
                 if type(product[i]) == Motos:
-                    print(f"""Moto = {product[i].modelo}\nKm = {product[i].km}\nPrecio = {product[i].precio}\n""")
+                    print(f"""Moto = {product[i].marca}\nModelo = {product[i].modelo}\nKm = {product[i].km}\nPrecio = ${product[i].precio}\n""")
                     print("Si desea Modificarlo Escriba [Modificar] en caso contrario escriba [No]\n")
                     var = input()
                     var = var.lower()
@@ -36,7 +36,7 @@ def modifica (product):
         elif  c == 3:
             for i in range(len(product)):
                 if type(product[i]) == Bicicletas:
-                    print(f"""Bicicleta = {product[i].marca}\nRodado = {product[i].rodado}\nPrecio = {product[i].precio}\n""")
+                    print(f"""Bicicleta = {product[i].marca}\nRodado = {product[i].rodado}\nPrecio = ${product[i].precio}\n""")
                     print("Si desea Modificarlo Escriba [Modificar] en caso contrario escriba [No]\n")
                     var = input()
                     var = var.lower()

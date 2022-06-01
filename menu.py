@@ -5,13 +5,13 @@ import os
 
 def menu_product (user):
     pro_dispo = []
-    va1 = Autos ("Ford K", 2011, 85.000, 650000)
-    va2 = Autos("Chevrolet Cruze", 2018, 25.000, 3500000)
-    va3 = Autos("Toyota Yaris", 2020, 23.000, 3875000)
+    va1 = Autos ("Ford K", 2011, 85000, 650000)
+    va2 = Autos("Chevrolet Cruze", 2018, 25000, 3500000)
+    va3 = Autos("Toyota Yaris", 2020, 23000, 3875000)
     va4 = Bicicletas("Orbea", 29, 160000)
     va5 = Bicicletas("Venzo", 29, 95000)
-    va6 = Motos("Honda Wave", 2015, 60.000, 75000)
-    va7 = Motos("Bajaj Rouser", 2016, 50.000, 315000)
+    va6 = Motos("Honda Wave", 2015, 60000, 75000)
+    va7 = Motos("Bajaj Rouser", 2016, 50000, 315000)
     pro_dispo.append(va1)
     pro_dispo.append(va2)
     pro_dispo.append(va3)
