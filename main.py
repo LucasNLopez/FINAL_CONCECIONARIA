@@ -4,6 +4,7 @@ from usuarios import *
 from edit import *
 from menu import *
 import os
+from agregar import *
 
 
 selecc = []

@@ -16,7 +16,7 @@ def validar(seleccion):
             mail = input ()
             contraseña = input ()
             for i in range(len(cuentas)):
-                if mail == "lucaslopez@gmail.com" and contraseña == "admin123":
+                if mail == cuenta_administrador.user and contraseña == cuenta_administrador.contraseña:
                     return cuentas[i]
         elif seleccion == 2:
             print ("MENU INVITADO")
@@ -24,7 +24,7 @@ def validar(seleccion):
             mail = input ()
             contraseña = input ()
             for i in range(len(cuentas)):
-                if mail == "invitado@gmail.com" and contraseña == "123":
+                if mail == cuenta_invitado.user and contraseña == cuenta_invitado.contraseña:
                     return cuentas[i]
         elif seleccion == 3:
             lu = 0

@@ -16,4 +16,3 @@ class Administrador():
         self.intentos = 2
         self.seguridad = 1
         
-

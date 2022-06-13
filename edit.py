@@ -1,6 +1,9 @@
 from objetos import *
 import os
 
+
+
+
 def modifica (product):
     var=""
     j=1
