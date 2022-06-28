@@ -10,7 +10,10 @@ from agregar import *
     
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> a85b62840a86427d6c97de10c33dc0ca69f3632f
 root = Tk()
 root.title("Panel")
 root.iconbitmap("auto.ico")
@@ -30,6 +33,7 @@ titlelabel.config(bg="#5458C2")
 titlelabel.pack()   
 
 #########LOGGIN DEL PROGRAMA
+<<<<<<< HEAD
 
 
 #$def login():
@@ -37,6 +41,13 @@ titlelabel.pack()
         #lset("Bienvenido al menu Administrador")
     #else:
         #False
+=======
+#def login():
+ #   if Administrador(user=usuario,contra=contraseña):
+ #       Label("Bienvenido al menu Administrador")
+ #   else:
+ #       False
+>>>>>>> a85b62840a86427d6c97de10c33dc0ca69f3632f
 
 
 miFrame=Frame(root)
@@ -45,12 +56,22 @@ miFrame.config(bg="#5458C2")
 
 
 
+<<<<<<< HEAD
 
 
 
 #### Entrada de usuario
 usuario=StringVar()
 contraseña=StringVar()
+=======
+#### Entrada de usuario
+global usuario
+global contraseña
+
+
+
+#### Entrada de Usuario
+>>>>>>> a85b62840a86427d6c97de10c33dc0ca69f3632f
 usuario=Entry(miFrame)
 usuario.grid(row=0,column=1,padx=5,pady=5)
 usuario.config(justify="center")
@@ -71,6 +92,18 @@ texto_contra.grid(row=1,column=0,sticky="w",padx=5,pady=5)
 
 #BOTON ENVIAR LOGGIN
 Button(root, text="Acceder",bg="#5458C2").pack()
+<<<<<<< HEAD
+=======
+
+
+
+
+
+
+
+
+
+>>>>>>> a85b62840a86427d6c97de10c33dc0ca69f3632f
 
 
 
